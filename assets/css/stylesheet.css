@@ -1,0 +1,29 @@
+html, body {
+	height: 100%;
+}
+
+.card {
+	box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
+}
+
+.card:hover {
+	box-shadow: 3px 4px 14px 0 rgba(13, 202, 240, 0.3) !important;
+	cursor: pointer;
+	transform: scale(1.03) !important;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.nav-link:hover {
+	color:#0dcaf0 !important;
+}
+
+.nav-link.active {
+	color:#0dcaf0 !important;
+}
